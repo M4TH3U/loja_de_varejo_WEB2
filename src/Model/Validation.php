@@ -18,7 +18,7 @@ class Validation{
         return mb_strlen($telefone) > 8;
     }
 
-    public static function validateCnpj(float\ $cnpj):bool{
+    public static function validateCnpj(float $cnpj):bool{
         return mb_strlen($cnpj) > 13;
     }
 
